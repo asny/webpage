@@ -1,0 +1,246 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ifc xmlns:xlink="http://www.w3.org/1999/xlink">
+	<header>
+		<file_description>
+			<description>ViewDefinition [CoordinationView_V2.0]</description>
+			<implementation_level>2;1</implementation_level>
+		</file_description>
+		<file_name>
+			<author/>
+			<organization/>
+			<name>EB</name>
+			<time_stamp>2017-12-07T16:46:28</time_stamp>
+			<preprocessor_version>The EXPRESS Data Manager Version 5.02.0100.07 : 28 Aug 2013</preprocessor_version>
+			<originating_system>20150220_1215(x64) - Exporter 16.6.0.0 - Alternate UI 16.6.0.0</originating_system>
+			<authorization/>
+		</file_name>
+		<file_schema>
+			<schema_identifiers>IFC2X3</schema_identifiers>
+		</file_schema>
+	</header>
+	<units>
+		<IfcSIUnit UnitType="LENGTHUNIT" Prefix="MILLI" Name="METRE" SI_equivalent="0.001"/>
+		<IfcSIUnit UnitType="AREAUNIT" Name="SQUARE_METRE" SI_equivalent="1"/>
+		<IfcSIUnit UnitType="VOLUMEUNIT" Name="CUBIC_METRE" SI_equivalent="1"/>
+		<IfcConversionBasedUnit UnitType="PLANEANGLEUNIT" Name="DEGREE" SI_equivalent="0.017453292519943299"/>
+		<IfcSIUnit UnitType="MASSUNIT" Prefix="KILO" Name="GRAM" SI_equivalent="1000"/>
+		<IfcSIUnit UnitType="TIMEUNIT" Name="SECOND" SI_equivalent="1"/>
+		<IfcSIUnit UnitType="FREQUENCYUNIT" Name="HERTZ" SI_equivalent="1"/>
+		<IfcSIUnit UnitType="THERMODYNAMICTEMPERATUREUNIT" Name="DEGREE_CELSIUS" SI_equivalent="1"/>
+		<IfcSIUnit UnitType="ELECTRICCURRENTUNIT" Name="AMPERE" SI_equivalent="1"/>
+		<IfcSIUnit UnitType="ELECTRICVOLTAGEUNIT" Name="VOLT" SI_equivalent="1"/>
+		<IfcSIUnit UnitType="POWERUNIT" Name="WATT" SI_equivalent="1"/>
+		<IfcSIUnit UnitType="FORCEUNIT" Prefix="KILO" Name="NEWTON" SI_equivalent="1000"/>
+		<IfcSIUnit UnitType="ILLUMINANCEUNIT" Name="LUX" SI_equivalent="1"/>
+		<IfcSIUnit UnitType="LUMINOUSFLUXUNIT" Name="LUMEN" SI_equivalent="1"/>
+		<IfcSIUnit UnitType="LUMINOUSINTENSITYUNIT" Name="CANDELA" SI_equivalent="1"/>
+		<IfcSIUnit UnitType="PRESSUREUNIT" Name="PASCAL" SI_equivalent="1"/>
+	</units>
+	<properties>
+		<IfcPropertySet id="2K35ZzWOX4EPuGixsi4QYa" Name="IBBD">
+			<IfcPropertySingleValue Name="locName" NominalValue="01.01"/>
+			<IfcPropertySingleValue Name="locLoid" NominalValue="13670.0.180693"/>
+		</IfcPropertySet>
+		<IfcPropertySet id="30JvLwN81DegoAQpuEk3ot" Name="IBBD">
+			<IfcPropertySingleValue Name="locName" NominalValue="01.02"/>
+			<IfcPropertySingleValue Name="locLoid" NominalValue="13670.0.180791"/>
+		</IfcPropertySet>
+		<IfcPropertySet id="3Ny8fh_ivB5Pvmw$o35GED" Name="IBBD">
+			<IfcPropertySingleValue Name="locName" NominalValue="01.03"/>
+			<IfcPropertySingleValue Name="locLoid" NominalValue="13670.0.180915"/>
+		</IfcPropertySet>
+		<IfcPropertySet id="3ZH3RfFxvCmgl7fs9Br7zf" Name="IBBD">
+			<IfcPropertySingleValue Name="locName" NominalValue="01.04"/>
+			<IfcPropertySingleValue Name="locLoid" NominalValue="13670.0.180929"/>
+		</IfcPropertySet>
+		<IfcPropertySet id="2Gk1EwcoX1GxPiPkVwBsHD" Name="IBBD">
+			<IfcPropertySingleValue Name="locName" NominalValue="02.01"/>
+			<IfcPropertySingleValue Name="locLoid" NominalValue="13670.0.181107"/>
+		</IfcPropertySet>
+		<IfcPropertySet id="0hfoFiolP9t9q6fDWuvQaJ" Name="IBBD">
+			<IfcPropertySingleValue Name="locName" NominalValue="02.02"/>
+			<IfcPropertySingleValue Name="locLoid" NominalValue="13670.0.181117"/>
+		</IfcPropertySet>
+		<IfcPropertySet id="0t4yPTfUfAceiiJ6wgXdzk" Name="IBBD">
+			<IfcPropertySingleValue Name="locName" NominalValue="02.03"/>
+			<IfcPropertySingleValue Name="locLoid" NominalValue="13670.0.181127"/>
+		</IfcPropertySet>
+		<IfcPropertySet id="3BkTUvWC1Az9M1CelS8YRA" Name="IBBD">
+			<IfcPropertySingleValue Name="locName" NominalValue="02.04"/>
+			<IfcPropertySingleValue Name="locLoid" NominalValue="13670.0.181137"/>
+		</IfcPropertySet>
+		<IfcPropertySet id="39VsyKObrFSxbuKmIjyo4P" Name="IBBD">
+			<IfcPropertySingleValue Name="locName" NominalValue="03.01"/>
+			<IfcPropertySingleValue Name="locLoid" NominalValue="13670.0.181260"/>
+		</IfcPropertySet>
+		<IfcPropertySet id="09KobMDMz37eCHnRzUY7lC" Name="IBBD">
+			<IfcPropertySingleValue Name="locName" NominalValue="03.02"/>
+			<IfcPropertySingleValue Name="locLoid" NominalValue="13670.0.181270"/>
+		</IfcPropertySet>
+		<IfcPropertySet id="1wGpf0BqbCguUWEbev2xEq" Name="IBBD">
+			<IfcPropertySingleValue Name="locName" NominalValue="03.03"/>
+			<IfcPropertySingleValue Name="locLoid" NominalValue="13670.0.181280"/>
+		</IfcPropertySet>
+		<IfcPropertySet id="03i$clD7vAUA5lijFAKqRT" Name="IBBD">
+			<IfcPropertySingleValue Name="locName" NominalValue="03.04"/>
+			<IfcPropertySingleValue Name="locLoid" NominalValue="13670.0.181290"/>
+		</IfcPropertySet>
+		<IfcPropertySet id="1iKznq0bf3Getjg2kBKevg" Name="IBBD">
+			<IfcPropertySingleValue Name="locName" NominalValue="04.01"/>
+			<IfcPropertySingleValue Name="locLoid" NominalValue="13670.0.181421"/>
+		</IfcPropertySet>
+		<IfcPropertySet id="36TuhtFmX8GeGDEfzaHJ7Z" Name="IBBD">
+			<IfcPropertySingleValue Name="locName" NominalValue="04.02"/>
+			<IfcPropertySingleValue Name="locLoid" NominalValue="13670.0.181431"/>
+		</IfcPropertySet>
+		<IfcPropertySet id="11tfoQE_fA4QurwRzMOp22" Name="IBBD">
+			<IfcPropertySingleValue Name="locName" NominalValue="04.03"/>
+			<IfcPropertySingleValue Name="locLoid" NominalValue="13670.0.181441"/>
+		</IfcPropertySet>
+		<IfcPropertySet id="209Y0Qpsj8uhJj8f0J1Fup" Name="IBBD">
+			<IfcPropertySingleValue Name="locName" NominalValue="05.01"/>
+			<IfcPropertySingleValue Name="locLoid" NominalValue="13670.0.181574"/>
+		</IfcPropertySet>
+		<IfcPropertySet id="02uZe62wf9$QvBPzsmk9b6" Name="IBBD">
+			<IfcPropertySingleValue Name="locName" NominalValue="05.02"/>
+			<IfcPropertySingleValue Name="locLoid" NominalValue="13670.0.181584"/>
+		</IfcPropertySet>
+		<IfcPropertySet id="0nK4E62o17OxQ99lod9G4W" Name="IBBD">
+			<IfcPropertySingleValue Name="locName" NominalValue="06.01"/>
+			<IfcPropertySingleValue Name="locLoid" NominalValue="13670.0.181727"/>
+		</IfcPropertySet>
+	</properties>
+	<types>
+		<IfcBuildingElementProxyType id="3tcbVsom18Wv62nTvpTf5i" Name="01.01" Tag="1714165" PredefinedType="NOTDEFINED"/>
+		<IfcBuildingElementProxyType id="3tcbVsom18Wv62nTvpTfvS" Name="01.01" Tag="1714373" PredefinedType="NOTDEFINED"/>
+		<IfcBuildingElementProxyType id="3tcbVsom18Wv62nTvpTf_F" Name="01.01" Tag="1714450" PredefinedType="NOTDEFINED"/>
+		<IfcBuildingElementProxyType id="3tcbVsom18Wv62nTvpTf$L" Name="01.01" Tag="1714508" PredefinedType="NOTDEFINED"/>
+		<IfcBuildingElementProxyType id="3tcbVsom18Wv62nTvpTfy5" Name="01.01" Tag="1714588" PredefinedType="NOTDEFINED"/>
+		<IfcBuildingElementProxyType id="3tcbVsom18Wv62nTvpTfzO" Name="01.01" Tag="1714625" PredefinedType="NOTDEFINED"/>
+		<IfcBuildingElementProxyType id="3tcbVsom18Wv62nTvpTfzp" Name="01.01" Tag="1714662" PredefinedType="NOTDEFINED"/>
+		<IfcBuildingElementProxyType id="3tcbVsom18Wv62nTvpTfoM" Name="01.01" Tag="1714699" PredefinedType="NOTDEFINED"/>
+		<IfcBuildingElementProxyType id="3tcbVsom18Wv62nTvpTfse" Name="01.01" Tag="1714993" PredefinedType="NOTDEFINED"/>
+		<IfcBuildingElementProxyType id="3tcbVsom18Wv62nTvpTftB" Name="01.01" Tag="1715022" PredefinedType="NOTDEFINED"/>
+		<IfcBuildingElementProxyType id="3tcbVsom18Wv62nTvpTfts" Name="01.01" Tag="1715051" PredefinedType="NOTDEFINED"/>
+		<IfcBuildingElementProxyType id="3tcbVsom18Wv62nTvpTfqH" Name="01.01" Tag="1715080" PredefinedType="NOTDEFINED"/>
+		<IfcBuildingElementProxyType id="3tcbVsom18Wv62nTvpTfrq" Name="01.01" Tag="1715181" PredefinedType="NOTDEFINED"/>
+		<IfcBuildingElementProxyType id="3tcbVsom18Wv62nTvpTfgN" Name="01.01" Tag="1715210" PredefinedType="NOTDEFINED"/>
+		<IfcBuildingElementProxyType id="3tcbVsom18Wv62nTvpTfgo" Name="01.01" Tag="1715239" PredefinedType="NOTDEFINED"/>
+		<IfcBuildingElementProxyType id="3tcbVsom18Wv62nTvpTfem" Name="01.01" Tag="1715369" PredefinedType="NOTDEFINED"/>
+		<IfcBuildingElementProxyType id="3tcbVsom18Wv62nTvpTffJ" Name="01.01" Tag="1715398" PredefinedType="NOTDEFINED"/>
+		<IfcBuildingElementProxyType id="3tcbVsom18Wv62nTvpTfly" Name="01.01" Tag="1715557" PredefinedType="NOTDEFINED"/>
+	</types>
+	<layers>
+		<IfcPresentationLayerAssignment id="A-MASS-____-OTLN" Name="A-MASS-____-OTLN"/>
+	</layers>
+	<decomposition>
+		<IfcProject id="2dREvVZLD928alZd2ou8ZV" Name="EB" LongName="Exigo Bygning" Phase="Project Status">
+			<IfcSite id="2dREvVZLD928alZd2ou8ZT" Name="Default" ObjectType="" ObjectPlacement="1 0 0 0 0 1 0 0 0 0 1 0 1302.2 0 0 1" CompositionType="ELEMENT" RefLatitude="51.500152587778" RefLongitude="-0.12623620027778" RefElevation="0">
+				<IfcBuilding id="2dREvVZLD928alZd2ou8ZU" Name="" ObjectPlacement="1 0 0 0 0 1 0 0 0 0 1 0 1302.2 0 0 1" LongName="" CompositionType="ELEMENT">
+					<IfcBuildingStorey id="2dREvVZLD928alZd1D6nus" Name="00 Fundament" ObjectPlacement="1 0 0 0 0 1 0 0 0 0 1 0 1302.2 0 -5000 1" LongName="00 Fundament" CompositionType="ELEMENT" Elevation="-5000">
+						<IfcBuildingElementProxy id="3tcbVsom18Wv62pTvpTf5i" Name="01.01:01.01:1714167" ObjectType="01.01" ObjectPlacement="1 0 0 0 0 1 0 0 0 0 1 0 1302.2 0 0 1" Tag="1714167">
+							<IfcPropertySet xlink:href="#2K35ZzWOX4EPuGixsi4QYa"/>
+							<IfcBuildingElementProxyType xlink:href="#3tcbVsom18Wv62nTvpTf5i"/>
+							<IfcPresentationLayerAssignment xlink:href="#A-MASS-____-OTLN"/>
+						</IfcBuildingElementProxy>
+						<IfcBuildingElementProxy id="3tcbVsom18Wv62pTvpTfvS" Name="01.1:01.01:1714375" ObjectType="01.01" ObjectPlacement="1 0 0 0 0 1 0 0 0 0 1 0 1302.2 0 0 1" Tag="1714375">
+							<IfcPropertySet xlink:href="#30JvLwN81DegoAQpuEk3ot"/>
+							<IfcBuildingElementProxyType xlink:href="#3tcbVsom18Wv62nTvpTfvS"/>
+							<IfcPresentationLayerAssignment xlink:href="#A-MASS-____-OTLN"/>
+						</IfcBuildingElementProxy>
+						<IfcBuildingElementProxy id="3tcbVsom18Wv62pTvpTf_F" Name="01.2:01.01:1714452" ObjectType="01.01" ObjectPlacement="1 0 0 0 0 1 0 0 0 0 1 0 1302.2 0 0 1" Tag="1714452">
+							<IfcPropertySet xlink:href="#3Ny8fh_ivB5Pvmw$o35GED"/>
+							<IfcBuildingElementProxyType xlink:href="#3tcbVsom18Wv62nTvpTf_F"/>
+							<IfcPresentationLayerAssignment xlink:href="#A-MASS-____-OTLN"/>
+						</IfcBuildingElementProxy>
+						<IfcBuildingElementProxy id="3tcbVsom18Wv62pTvpTf$L" Name="01.3:01.01:1714510" ObjectType="01.01" ObjectPlacement="1 0 0 0 0 1 0 0 0 0 1 0 1302.2 0 0 1" Tag="1714510">
+							<IfcPropertySet xlink:href="#3ZH3RfFxvCmgl7fs9Br7zf"/>
+							<IfcBuildingElementProxyType xlink:href="#3tcbVsom18Wv62nTvpTf$L"/>
+							<IfcPresentationLayerAssignment xlink:href="#A-MASS-____-OTLN"/>
+						</IfcBuildingElementProxy>
+					</IfcBuildingStorey>
+					<IfcBuildingStorey id="2dREvVZLD928alZd1D7tMP" Name="02 Stue" ObjectPlacement="1 0 0 0 0 1 0 0 0 0 1 0 1302.2 0 0 1" LongName="02 Stue" CompositionType="ELEMENT" Elevation="0">
+						<IfcBuildingElementProxy id="3tcbVsom18Wv62pTvpTfy5" Name="01.4:01.01:1714590" ObjectType="01.01" ObjectPlacement="1 0 0 0 0 1 0 0 0 0 1 0 1302.2 0 0 1" Tag="1714590">
+							<IfcPropertySet xlink:href="#2Gk1EwcoX1GxPiPkVwBsHD"/>
+							<IfcBuildingElementProxyType xlink:href="#3tcbVsom18Wv62nTvpTfy5"/>
+							<IfcPresentationLayerAssignment xlink:href="#A-MASS-____-OTLN"/>
+						</IfcBuildingElementProxy>
+						<IfcBuildingElementProxy id="3tcbVsom18Wv62pTvpTfzO" Name="01.5:01.01:1714627" ObjectType="01.01" ObjectPlacement="1 0 0 0 0 1 0 0 0 0 1 0 1302.2 0 0 1" Tag="1714627">
+							<IfcPropertySet xlink:href="#0hfoFiolP9t9q6fDWuvQaJ"/>
+							<IfcBuildingElementProxyType xlink:href="#3tcbVsom18Wv62nTvpTfzO"/>
+							<IfcPresentationLayerAssignment xlink:href="#A-MASS-____-OTLN"/>
+						</IfcBuildingElementProxy>
+						<IfcBuildingElementProxy id="3tcbVsom18Wv62pTvpTfzp" Name="01.6:01.01:1714664" ObjectType="01.01" ObjectPlacement="1 0 0 0 0 1 0 0 0 0 1 0 1302.2 0 0 1" Tag="1714664">
+							<IfcPropertySet xlink:href="#0t4yPTfUfAceiiJ6wgXdzk"/>
+							<IfcBuildingElementProxyType xlink:href="#3tcbVsom18Wv62nTvpTfzp"/>
+							<IfcPresentationLayerAssignment xlink:href="#A-MASS-____-OTLN"/>
+						</IfcBuildingElementProxy>
+						<IfcBuildingElementProxy id="3tcbVsom18Wv62pTvpTfoM" Name="01.7:01.01:1714701" ObjectType="01.01" ObjectPlacement="1 0 0 0 0 1 0 0 0 0 1 0 1302.2 0 0 1" Tag="1714701">
+							<IfcPropertySet xlink:href="#3BkTUvWC1Az9M1CelS8YRA"/>
+							<IfcBuildingElementProxyType xlink:href="#3tcbVsom18Wv62nTvpTfoM"/>
+							<IfcPresentationLayerAssignment xlink:href="#A-MASS-____-OTLN"/>
+						</IfcBuildingElementProxy>
+					</IfcBuildingStorey>
+					<IfcBuildingStorey id="2dREvVZLD928alZd1D6nxV" Name="03 1. sal" ObjectPlacement="1 0 0 0 0 1 0 0 0 0 1 0 1302.2 0 4000 1" LongName="03 1. sal" CompositionType="ELEMENT" Elevation="4000">
+						<IfcBuildingElementProxy id="3tcbVsom18Wv62pTvpTfse" Name="01.8:01.01:1714995" ObjectType="01.01" ObjectPlacement="1 0 0 0 0 1 0 0 0 0 1 0 1302.2 0 0 1" Tag="1714995">
+							<IfcPropertySet xlink:href="#39VsyKObrFSxbuKmIjyo4P"/>
+							<IfcBuildingElementProxyType xlink:href="#3tcbVsom18Wv62nTvpTfse"/>
+							<IfcPresentationLayerAssignment xlink:href="#A-MASS-____-OTLN"/>
+						</IfcBuildingElementProxy>
+						<IfcBuildingElementProxy id="3tcbVsom18Wv62pTvpTftB" Name="01.9:01.01:1715024" ObjectType="01.01" ObjectPlacement="1 0 0 0 0 1 0 0 0 0 1 0 1302.2 0 0 1" Tag="1715024">
+							<IfcPropertySet xlink:href="#09KobMDMz37eCHnRzUY7lC"/>
+							<IfcBuildingElementProxyType xlink:href="#3tcbVsom18Wv62nTvpTftB"/>
+							<IfcPresentationLayerAssignment xlink:href="#A-MASS-____-OTLN"/>
+						</IfcBuildingElementProxy>
+						<IfcBuildingElementProxy id="3tcbVsom18Wv62pTvpTfts" Name="01.10:01.01:1715053" ObjectType="01.01" ObjectPlacement="1 0 0 0 0 1 0 0 0 0 1 0 1302.2 0 0 1" Tag="1715053">
+							<IfcPropertySet xlink:href="#1wGpf0BqbCguUWEbev2xEq"/>
+							<IfcBuildingElementProxyType xlink:href="#3tcbVsom18Wv62nTvpTfts"/>
+							<IfcPresentationLayerAssignment xlink:href="#A-MASS-____-OTLN"/>
+						</IfcBuildingElementProxy>
+						<IfcBuildingElementProxy id="3tcbVsom18Wv62pTvpTfqH" Name="01.11:01.01:1715082" ObjectType="01.01" ObjectPlacement="1 0 0 0 0 1 0 0 0 0 1 0 1302.2 0 0 1" Tag="1715082">
+							<IfcPropertySet xlink:href="#03i$clD7vAUA5lijFAKqRT"/>
+							<IfcBuildingElementProxyType xlink:href="#3tcbVsom18Wv62nTvpTfqH"/>
+							<IfcPresentationLayerAssignment xlink:href="#A-MASS-____-OTLN"/>
+						</IfcBuildingElementProxy>
+					</IfcBuildingStorey>
+					<IfcBuildingStorey id="2dREvVZLD928alZd1D6nsf" Name="04 2. sal" ObjectPlacement="1 0 0 0 0 1 0 0 0 0 1 0 1302.2 0 8000 1" LongName="04 2. sal" CompositionType="ELEMENT" Elevation="8000">
+						<IfcBuildingElementProxy id="3tcbVsom18Wv62pTvpTfrq" Name="01.12:01.01:1715183" ObjectType="01.01" ObjectPlacement="1 0 0 0 0 1 0 0 0 0 1 0 1302.2 0 0 1" Tag="1715183">
+							<IfcPropertySet xlink:href="#1iKznq0bf3Getjg2kBKevg"/>
+							<IfcBuildingElementProxyType xlink:href="#3tcbVsom18Wv62nTvpTfrq"/>
+							<IfcPresentationLayerAssignment xlink:href="#A-MASS-____-OTLN"/>
+						</IfcBuildingElementProxy>
+						<IfcBuildingElementProxy id="3tcbVsom18Wv62pTvpTfgN" Name="01.13:01.01:1715212" ObjectType="01.01" ObjectPlacement="1 0 0 0 0 1 0 0 0 0 1 0 1302.2 0 0 1" Tag="1715212">
+							<IfcPropertySet xlink:href="#36TuhtFmX8GeGDEfzaHJ7Z"/>
+							<IfcBuildingElementProxyType xlink:href="#3tcbVsom18Wv62nTvpTfgN"/>
+							<IfcPresentationLayerAssignment xlink:href="#A-MASS-____-OTLN"/>
+						</IfcBuildingElementProxy>
+						<IfcBuildingElementProxy id="3tcbVsom18Wv62pTvpTfgo" Name="01.14:01.01:1715241" ObjectType="01.01" ObjectPlacement="1 0 0 0 0 1 0 0 0 0 1 0 1302.2 0 0 1" Tag="1715241">
+							<IfcPropertySet xlink:href="#11tfoQE_fA4QurwRzMOp22"/>
+							<IfcBuildingElementProxyType xlink:href="#3tcbVsom18Wv62nTvpTfgo"/>
+							<IfcPresentationLayerAssignment xlink:href="#A-MASS-____-OTLN"/>
+						</IfcBuildingElementProxy>
+					</IfcBuildingStorey>
+					<IfcBuildingStorey id="2dREvVZLD928alZd1D6nmn" Name="05 3. sal" ObjectPlacement="1 0 0 0 0 1 0 0 0 0 1 0 1302.2 0 12000 1" LongName="05 3. sal" CompositionType="ELEMENT" Elevation="12000">
+						<IfcBuildingElementProxy id="3tcbVsom18Wv62pTvpTfem" Name="01.16:01.01:1715371" ObjectType="01.01" ObjectPlacement="1 0 0 0 0 1 0 0 0 0 1 0 1302.2 0 0 1" Tag="1715371">
+							<IfcPropertySet xlink:href="#209Y0Qpsj8uhJj8f0J1Fup"/>
+							<IfcBuildingElementProxyType xlink:href="#3tcbVsom18Wv62nTvpTfem"/>
+							<IfcPresentationLayerAssignment xlink:href="#A-MASS-____-OTLN"/>
+						</IfcBuildingElementProxy>
+						<IfcBuildingElementProxy id="3tcbVsom18Wv62pTvpTffJ" Name="01.17:01.01:1715400" ObjectType="01.01" ObjectPlacement="1 0 0 0 0 1 0 0 0 0 1 0 1302.2 0 0 1" Tag="1715400">
+							<IfcPropertySet xlink:href="#02uZe62wf9$QvBPzsmk9b6"/>
+							<IfcBuildingElementProxyType xlink:href="#3tcbVsom18Wv62nTvpTffJ"/>
+							<IfcPresentationLayerAssignment xlink:href="#A-MASS-____-OTLN"/>
+						</IfcBuildingElementProxy>
+					</IfcBuildingStorey>
+					<IfcBuildingStorey id="2dREvVZLD928alZd1D6MrI" Name="06 4. sal" ObjectPlacement="1 0 0 0 0 1 0 0 0 0 1 0 1302.2 0 16000 1" LongName="06 4. sal" CompositionType="ELEMENT" Elevation="16000">
+						<IfcBuildingElementProxy id="3tcbVsom18Wv62pTvpTfly" Name="01.20:01.01:1715559" ObjectType="01.01" ObjectPlacement="1 0 0 0 0 1 0 0 0 0 1 0 1302.2 0 0 1" Tag="1715559">
+							<IfcPropertySet xlink:href="#0nK4E62o17OxQ99lod9G4W"/>
+							<IfcBuildingElementProxyType xlink:href="#3tcbVsom18Wv62nTvpTfly"/>
+							<IfcPresentationLayerAssignment xlink:href="#A-MASS-____-OTLN"/>
+						</IfcBuildingElementProxy>
+					</IfcBuildingStorey>
+				</IfcBuilding>
+			</IfcSite>
+		</IfcProject>
+	</decomposition>
+</ifc>
