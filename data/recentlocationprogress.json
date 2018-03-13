@@ -1,0 +1,110 @@
+[
+  {
+    "locname": "01.01",
+    "locloid": "13670.0.180693",
+    "forecaststart": "2017-11-17 07:00:00.000000",
+    "forecastend": "2017-12-08 15:00:00.000000",
+    "plannedstart": "2017-11-14 07:00:00.000000",
+    "plannedend": "2017-11-24 11:07:49.000000",
+    "taskname": "Fundamenter",
+    "taskcode": "0001",
+    "completion": 1.0,
+    "reportdate": "2017-12-08 15:00:00.000000"
+  },
+  {
+    "locname": "01.01",
+    "locloid": "13670.0.180693",
+    "forecaststart": "2017-12-08 07:00:00.000000",
+    "forecastend": "2017-12-22 13:24:00.000000",
+    "plannedstart": "2017-12-06 11:18:24.000000",
+    "plannedend": "2017-12-14 09:18:24.000000",
+    "taskname": "Trapper",
+    "taskcode": "0003",
+    "completion": 0.6,
+    "reportdate": "2017-12-15 15:00:00.000000"
+  },
+  {
+    "locname": "01.01",
+    "locloid": "13670.0.180693",
+    "forecaststart": "2017-12-01 07:00:00.000000",
+    "forecastend": "2017-12-21 10:40:30.000000",
+    "plannedstart": "2017-11-24 11:29:38.000000",
+    "plannedend": "2017-12-05 09:04:11.000000",
+    "taskname": "Betonarbejder",
+    "taskcode": "0002",
+    "completion": 0.8,
+    "reportdate": "2017-12-15 15:00:00.000000"
+  },
+  {
+    "locname": "01.02",
+    "locloid": "13670.0.180791",
+    "forecaststart": "2017-12-08 07:00:00.000000",
+    "forecastend": "2017-12-22 09:46:04.000000",
+    "plannedstart": "2017-12-05 09:04:11.000000",
+    "plannedend": "2017-12-13 10:31:03.000000",
+    "taskname": "Betonarbejder",
+    "taskcode": "0002",
+    "completion": 0.7,
+    "reportdate": "2017-12-15 15:00:00.000000"
+  },
+  {
+    "locname": "01.02",
+    "locloid": "13670.0.180791",
+    "forecaststart": "2017-12-01 07:00:00.000000",
+    "forecastend": "2017-12-15 15:00:00.000000",
+    "plannedstart": "2017-11-24 11:07:49.000000",
+    "plannedend": "2017-12-04 13:53:50.000000",
+    "taskname": "Fundamenter",
+    "taskcode": "0001",
+    "completion": 1.0,
+    "reportdate": "2017-12-15 15:00:00.000000"
+  },
+  {
+    "locname": "01.02",
+    "locloid": "13670.0.180791",
+    "forecaststart": "2017-12-15 07:00:00.000000",
+    "forecastend": "2017-12-26 15:00:00.000000",
+    "plannedstart": "2017-12-14 09:18:24.000000",
+    "plannedend": "2017-12-22 07:18:24.000000",
+    "taskname": "Trapper",
+    "taskcode": "0003",
+    "completion": 0.4,
+    "reportdate": "2017-12-15 15:00:00.000000"
+  },
+  {
+    "locname": "01.03",
+    "locloid": "13670.0.180915",
+    "forecaststart": "2017-12-15 07:00:00.000000",
+    "forecastend": "2017-12-26 10:17:49.000000",
+    "plannedstart": "2017-12-13 10:31:03.000000",
+    "plannedend": "2017-12-21 12:00:00.000000",
+    "taskname": "Betonarbejder",
+    "taskcode": "0002",
+    "completion": 0.5,
+    "reportdate": "2017-12-15 15:00:00.000000"
+  },
+  {
+    "locname": "01.03",
+    "locloid": "13670.0.180915",
+    "forecaststart": "2017-12-08 07:00:00.000000",
+    "forecastend": "2017-12-14 09:10:42.000000",
+    "plannedstart": "2017-12-04 13:53:50.000000",
+    "plannedend": "2017-12-13 08:49:43.000000",
+    "taskname": "Fundamenter",
+    "taskcode": "0001",
+    "completion": 0.5,
+    "reportdate": "2017-12-08 15:00:00.000000"
+  },
+  {
+    "locname": "01.04",
+    "locloid": "13670.0.180929",
+    "forecaststart": "2017-12-15 07:00:00.000000",
+    "forecastend": "2017-12-21 09:30:55.000000",
+    "plannedstart": "2017-12-13 08:49:43.000000",
+    "plannedend": "2017-12-21 12:00:00.000000",
+    "taskname": "Fundamenter",
+    "taskcode": "0001",
+    "completion": 0.4,
+    "reportdate": "2017-12-15 15:00:00.000000"
+  }
+]
